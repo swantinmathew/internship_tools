@@ -1,4 +1,4 @@
-app_name = "intership_tools"
+app_name = "internship_tools"
 app_title = "Internship_tools"
 app_publisher = "Swantin"
 app_description = "	Custom tools for ERPNext"
@@ -13,17 +13,17 @@ app_license = "mit"
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
-# 		"name": "intership_tools",
-# 		"logo": "/assets/intership_tools/logo.png",
+# 		"name": "internship_tools",
+# 		"logo": "/assets/internship_tools/logo.png",
 # 		"title": "Internship_tools",
-# 		"route": "/intership_tools",
-# 		"has_permission": "intership_tools.api.permission.has_app_permission",
+# 		"route": "/internship_tools",
+# 		"has_permission": "internship_tools.api.permission.has_app_permission",
 # 	}
 # ]
 
 # The dock, the rail down the left of the desk, is a document rather than a hook. Author it in
 # Manage Dock on a developer-mode site and press Export to App, and it is written to
-# `intership_tools/dock/intership_tools/intership_tools.json` for git to carry. An app that ships none has no
+# `internship_tools/dock/internship_tools/internship_tools.json` for git to carry. An app that ships none has no
 # rail: its sidebar gets a switcher in the header instead.
 #
 # A companion app, one that extends a host app rather than standing on its own, says so with
@@ -34,15 +34,15 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/intership_tools/css/intership_tools.css"
-# app_include_js = "/assets/intership_tools/js/intership_tools.js"
+# app_include_css = "/assets/internship_tools/css/internship_tools.css"
+# app_include_js = "/assets/internship_tools/js/internship_tools.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/intership_tools/css/intership_tools.css"
-# web_include_js = "/assets/intership_tools/js/intership_tools.js"
+# web_include_css = "/assets/internship_tools/css/internship_tools.css"
+# web_include_js = "/assets/internship_tools/js/internship_tools.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "intership_tools/public/scss/website"
+# website_theme_scss = "internship_tools/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -61,7 +61,7 @@ app_license = "mit"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "intership_tools/public/icons.svg"
+# app_include_icons = "internship_tools/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -88,60 +88,60 @@ app_license = "mit"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "intership_tools.utils.jinja_methods",
-# 	"filters": "intership_tools.utils.jinja_filters"
+# 	"methods": "internship_tools.utils.jinja_methods",
+# 	"filters": "internship_tools.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "intership_tools.install.before_install"
-# after_install = "intership_tools.install.after_install"
+# before_install = "internship_tools.install.before_install"
+# after_install = "internship_tools.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "intership_tools.uninstall.before_uninstall"
-# after_uninstall = "intership_tools.uninstall.after_uninstall"
+# before_uninstall = "internship_tools.uninstall.before_uninstall"
+# after_uninstall = "internship_tools.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "intership_tools.utils.before_app_install"
-# after_app_install = "intership_tools.utils.after_app_install"
+# before_app_install = "internship_tools.utils.before_app_install"
+# after_app_install = "internship_tools.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "intership_tools.utils.before_app_uninstall"
-# after_app_uninstall = "intership_tools.utils.after_app_uninstall"
+# before_app_uninstall = "internship_tools.utils.before_app_uninstall"
+# after_app_uninstall = "internship_tools.utils.after_app_uninstall"
 
 # Build
 # ------------------
 # To hook into the build process
 
-# after_build = "intership_tools.build.after_build"
+# after_build = "internship_tools.build.after_build"
 
 # To hook into the build process of other apps
 # The list of apps being built is passed as an argument
 
-# after_app_build = "intership_tools.build.after_app_build"
+# after_app_build = "internship_tools.build.after_app_build"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "intership_tools.notifications.get_notification_config"
+# notification_config = "internship_tools.notifications.get_notification_config"
 
 # Awesome Bar
 # -----------
 # Extra search results: list of dicts with label, description, route, index.
 # route: ["List", "ToDo"], "/desk/docs/some/page", or "https://example.com"
-# awesomebar_search = ["intership_tools.search.awesomebar_results"]
+# awesomebar_search = ["internship_tools.search.awesomebar_results"]
 
 # Permissions
 # -----------
@@ -172,47 +172,47 @@ app_license = "mit"
 
 # scheduler_events = {
 # 	"all": [
-# 		"intership_tools.tasks.all"
+# 		"internship_tools.tasks.all"
 # 	],
 # 	"daily": [
-# 		"intership_tools.tasks.daily"
+# 		"internship_tools.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"intership_tools.tasks.hourly"
+# 		"internship_tools.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"intership_tools.tasks.weekly"
+# 		"internship_tools.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"intership_tools.tasks.monthly"
+# 		"internship_tools.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "intership_tools.install.before_tests"
+# before_tests = "internship_tools.install.before_tests"
 
 # Extend DocType Class
 # ------------------------------
 #
 # Specify custom mixins to extend the standard doctype controller.
 # extend_doctype_class = {
-# 	"Task": "intership_tools.custom.task.CustomTaskMixin"
+# 	"Task": "internship_tools.custom.task.CustomTaskMixin"
 # }
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "intership_tools.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "internship_tools.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "intership_tools.task.get_dashboard_data"
+# 	"Task": "internship_tools.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -226,13 +226,13 @@ app_license = "mit"
 
 # Request Events
 # ----------------
-# before_request = ["intership_tools.utils.before_request"]
-# after_request = ["intership_tools.utils.after_request"]
+# before_request = ["internship_tools.utils.before_request"]
+# after_request = ["internship_tools.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["intership_tools.utils.before_job"]
-# after_job = ["intership_tools.utils.after_job"]
+# before_job = ["internship_tools.utils.before_job"]
+# after_job = ["internship_tools.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -262,7 +262,7 @@ app_license = "mit"
 # --------------------------------
 
 # auth_hooks = [
-# 	"intership_tools.auth.validate"
+# 	"internship_tools.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.

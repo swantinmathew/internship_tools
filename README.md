@@ -9,7 +9,7 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 ```bash
 cd $PATH_TO_YOUR_BENCH
 bench get-app $URL_OF_THIS_REPO --branch version-16
-bench install-app intership_tools
+bench install-app internship_tools
 ```
 
 ### Contributing
@@ -17,7 +17,7 @@ bench install-app intership_tools
 This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
 
 ```bash
-cd apps/intership_tools
+cd apps/internship_tools
 pre-commit install
 ```
 

@@ -1,0 +1,53 @@
+{
+ "charts": [
+  {
+   "chart_name": "Tasks by Due Date",
+   "label": "Tasks by Due Date"
+  },
+  {
+   "chart_name": "Task by Status",
+   "label": "Task by Status"
+  }
+ ],
+ "content": "[{\"id\": \"pnJuCdV3jf\", \"type\": \"header\", \"data\": {\"text\": \"\\u003cbr\\u003e\", \"col\": 12}}, {\"id\": \"vcIvGGitQc\", \"type\": \"paragraph\", \"data\": {\"text\": \"\\u003cspan class=\\\"h1\\\"\\u003eInternship Task Dashboard\\u003c/span\\u003e\", \"col\": 12}}, {\"id\": \"kiSgklByrF\", \"type\": \"paragraph\", \"data\": {\"text\": \"\\u003cspan class=\\\"h3\\\"\\u003eTrack your tasks, monitor progress, and manage upcoming deadlines.\\u003c/span\\u003e\", \"col\": 12}}, {\"id\": \"VgwvifJUln\", \"type\": \"paragraph\", \"data\": {\"text\": \"Click on \\n\\t\\t\\t\\n\\t\\t\\t\\n\\t\\t to edit\", \"col\": 12}}, {\"id\": \"wTfqPOTsx6\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Tasks by Due Date\", \"col\": 12}}, {\"id\": \"3K7MRedEd6\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Task by Status\", \"col\": 12}}, {\"id\": \"bSIQhTlQOE\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Tasks\", \"col\": 4}}, {\"id\": \"9H3L_NwA1L\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Completed Tasks\", \"col\": 4}}, {\"id\": \"C2-VASqVy-\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Tasks\", \"col\": 4}}]",
+ "creation": "2026-11-04 19:30:06.503275",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "swantinjomathew.mec@gmail.com",
+ "hide_custom": 0,
+ "icon": "clipboard-check",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Internship Task Dashboard",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2026-11-04 23:50:02.783479",
+ "modified_by": "Administrator",
+ "module": "Internship_tools",
+ "name": "Internship Task Dashboard",
+ "number_cards": [
+  {
+   "label": "Total Tasks",
+   "number_card_name": "Total Tasks"
+  },
+  {
+   "label": "Completed Tasks",
+   "number_card_name": "Completed Tasks"
+  },
+  {
+   "label": "Open Tasks",
+   "number_card_name": "Open Tasks"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 0.0,
+ "shortcuts": [],
+ "standard": 1,
+ "title": "Internship Task Dashboard",
+ "type": "Workspace"
+}
