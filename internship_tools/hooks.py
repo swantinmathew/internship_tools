@@ -187,6 +187,11 @@ app_license = "mit"
 # 		"internship_tools.tasks.monthly"
 # 	],
 # }
+scheduler_events = {
+    "daily": [
+        "internship_tools.tasks.update_overdue_tasks"
+    ]
+}
 
 # Testing
 # -------
@@ -277,3 +282,10 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+permission_query_conditions = {
+    "Internship Task": "internship_tools.internship_tools.doctype.internship_task.internship_task.get_task_permission_query"
+}
+
+has_permission = {
+    "Internship Task": "internship_tools.internship_tools.doctype.internship_task.internship_task.has_task_permission"
+}

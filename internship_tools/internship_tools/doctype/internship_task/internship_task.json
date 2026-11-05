@@ -12,7 +12,8 @@
   "description",
   "status",
   "due_date",
-  "assigned_to"
+  "assigned_to",
+  "priority"
  ],
  "fields": [
   {
@@ -34,12 +35,21 @@
    "label": "Description"
   },
   {
+   "default": "Medium",
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Priority",
+   "options": "Low\nMedium\nHigh\nUrgent",
+   "reqd": 1
+  },
+  {
    "fieldname": "status",
    "fieldtype": "Select",
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Status",
-   "options": "Open\nIn Progress\nCompleted",
+   "options": "Open\nIn Progress\nOverdue\nCompleted",
    "reqd": 1
   },
   {
@@ -60,7 +70,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-11-04 16:24:29.542464",
+ "modified": "2026-11-05 12:01:10.279757",
  "modified_by": "Administrator",
  "module": "Internship_tools",
  "name": "Internship Task",
@@ -77,6 +87,23 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Intern",
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Mentor",
    "write": 1
   }
  ],

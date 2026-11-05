@@ -37,3 +37,42 @@ def complete_task(task_name):
     task.save()
 
     return "Task completed successfully."
+
+def get_task_permission_query(user):
+    """Restrict Interns to tasks assigned to their own account."""
+
+    if not user:
+        user = frappe.session.user
+
+    if user == "Administrator":
+        return None
+
+    roles = frappe.get_roles(user)
+
+    if "System Manager" in roles or "Mentor" in roles:
+        return None
+
+    if "Intern" in roles:
+        return f"`tabInternship Task`.`assigned_to` = {frappe.db.escape(user)}"
+
+    return "1=0"
+
+
+def has_task_permission(doc, user=None, permission_type=None):
+    """Check whether a user can access a specific Internship Task."""
+
+    if not user:
+        user = frappe.session.user
+
+    if user == "Administrator":
+        return True
+
+    roles = frappe.get_roles(user)
+
+    if "System Manager" in roles or "Mentor" in roles:
+        return True
+
+    if "Intern" in roles:
+        return doc.assigned_to == user
+
+    return False
